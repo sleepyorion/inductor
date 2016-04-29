@@ -74,7 +74,7 @@ public abstract class AbstractOrderExecutor {
 		
 
         rsyncCmdLine = new String[]{
-                "/usr/bin/rsync",
+                "/usr/bin/rsync_parallel",
                 "-az",
                 "--force",
                 "--exclude=*.png",
